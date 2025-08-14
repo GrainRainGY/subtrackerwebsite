@@ -1,0 +1,15 @@
+[
+       {
+         "path": "/cards.json",
+         "status": 404,
+         "rules": [
+           {
+             "type": "block"
+           }
+         ]
+       },
+       {
+         "path": "/*",
+         "handle": "filesystem"
+       }
+]
